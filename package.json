@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
     "eris": "^0.17.1",
     "ffmpeg-inject": "^1.0.0",
     "nodemon": "^2.0.19",

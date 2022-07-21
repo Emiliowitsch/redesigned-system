@@ -5,10 +5,10 @@ const { config } = require("process");
 const { VoiceConnection, Message, Command } = require("eris");
 
 require("ffmpeg-inject");
-
+require("dotenv").config();
 
 var client = new Discord.Client({
-    token: "OTk5NTgwODE0NzA4ODUwNzM4.Gm3FQT.OvXlCWPnGaJvcFirx5vv8cu3HG7NA1rJOXvZGE",
+    token: process.env.TOKEN,
     prefix: "!",
     intents: [
         "guilds",

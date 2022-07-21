@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "eris": "^0.17.1",
+    "ffmpeg-inject": "^1.0.0",
+    "nodemon": "^2.0.19",
+    "ytdl-core": "^4.11.0",
+    "yuuko": "^2.3.2"
+  }
+}

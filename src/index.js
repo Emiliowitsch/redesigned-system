@@ -37,6 +37,8 @@ client.addDir(Path.join(__dirname, "events"))
 
 client.connect();
 
+process.on('uncaughtException', console.log);
+
 // async function playAudio(connection, msg, ctx) {
 
 //     var serverID = msg.guildID;
